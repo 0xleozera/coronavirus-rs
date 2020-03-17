@@ -14,18 +14,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        name: "Coronavírus - Rio Grande do Sul",
-        short_name: "Coronavírus - RS",
-        start_url: "/",
-        background_color: "#141414",
-        theme_color: "#695086",
-        display: "standalone",
-        icon: "static/logo.png"
-      },
-    },
-    {
       resolve: "gatsby-plugin-nprogress",
       options: {
         color: "#695086",
@@ -34,7 +22,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "IU-000",
+        trackingId: "UA-160838753-1",
       },
     },
     {
@@ -50,6 +38,5 @@ module.exports = {
         ignore: ["**/styles.js"],
       },
     },
-    "gatsby-plugin-offline",
   ]
 }
