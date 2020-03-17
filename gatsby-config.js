@@ -4,8 +4,6 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
-const theme = require("./src/assets/themes/main");
-
 module.exports = {
   siteMetadata: {
 
@@ -22,8 +20,8 @@ module.exports = {
         name: "Coronavírus - Rio Grande do Sul",
         short_name: "Coronavírus - RS",
         start_url: "/",
-        background_color: theme.colors.primary,
-        theme_color: theme.colors.secondary,
+        background_color: "#141414",
+        theme_color: "#695086",
         display: "standalone",
         icon: "static/logo.png"
       },
@@ -31,7 +29,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-nprogress",
       options: {
-        color: theme.colors.secondary,
+        color: "#695086",
       },
     },
     {
