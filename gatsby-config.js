@@ -6,9 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-
     title: "Coronavírus - Rio Grande do Sul",
-    siteUrl: "https://github.com/leonardorpr",
+    siteUrl: "https://coronavirus-rs.netlify.com",
     description: "Estatísticas de casos de Coronavírus no estado do Rio Grande do Sul.",
     author: "@leonardo_rpr"
   },

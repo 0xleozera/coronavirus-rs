@@ -36,7 +36,7 @@ const Home = () => {
           <ContUp label="Mortos" isHighlighted end={state.deaths} />
         </Informations>
         <Footer>
-          <Link href="https://github.com/leonardorpr" target="_blank">
+          <Link href="https://github.com/leonardorpr/coronavirus-rs" target="_blank">
             <FaGithub fill={theme.colors.accent} size={30} />
           </Link>
         </Footer>
