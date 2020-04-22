@@ -33,7 +33,7 @@ const Home = () => {
         <Informations>
           <ContUp label="Suspeitos" end={state.suspects} />
           <ContUp label="Confirmados" end={state.cases} />
-          <ContUp label="Mortos" isHighlighted end={state.deaths} />
+          <ContUp label="Mortes" isHighlighted end={state.deaths} />
         </Informations>
         <Footer>
           <Link href="https://github.com/leonardorpr/coronavirus-rs" target="_blank">
