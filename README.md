@@ -2,7 +2,7 @@
 
 Olá, este repositório é destinado para apresentar estatísticas do Coronavírus no Rio Grande do Sul de forma fácil e amigável.
 
-Todos os dados apresentados são recuperados a partir da API Pública [Corona Analytic](https://github.com/rodrilima/corona-analytic-api), a mesma é atualizada de hora em hora com dados fornecidos pelo [Governo do Brasil](https://saude.gov.br).
+Todos os dados apresentados são recuperados a partir da API Pública [Covid19 Brazil API](https://covid19-brazil-api-docs.now.sh/), a mesma é atualizada de hora em hora com dados fornecidos pelo [Governo do Brasil](https://saude.gov.br).
 
 ## Pré-requisitos
 
