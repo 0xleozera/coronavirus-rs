@@ -3,18 +3,18 @@ import { useCountUp } from 'react-countup';
 
 import { Container, Counter, Label } from "./styles";
 
-const ContUp = ({ label, isHighlighted, end }) => {
+function ContUp({ label, isHighlighted, end }) {
   const { countUp, update } = useCountUp({
     start: 0,
     end,
     duration: 4,
   });
 
-  const memoizedUpdate = useCallback(() => {
+  const memoizedUpdate = useCallback(function() {
     update(end);
   }, [end, update]);
 
-  useEffect(() => {
+  useEffect(function() {
     memoizedUpdate();
   }, [memoizedUpdate]);
 
@@ -24,6 +24,6 @@ const ContUp = ({ label, isHighlighted, end }) => {
       <Label>{label}</Label>
     </Container>
   );
-};
+}
 
 export default ContUp;
